@@ -21,12 +21,12 @@ NOTE: You can't run .ipa(for iOS) file directly on your iOS device, You need to 
 
 Login Screen:
 
-UserName: admin@gmail.com
+UserName: admin
 Password: admin
 
 Home Screen:
 
-You will get Pie Chart, Bar Chart &amp; Table in Home Screen.
+You will get UserName, Pie Chart, Bar Chart &amp; Table in Home Screen.
 
 Screenshots Attached:
 
