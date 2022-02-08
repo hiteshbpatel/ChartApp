@@ -10,9 +10,8 @@ Home Screen:
 
 You will get Pie Chart, Bar Chart &amp; Table
 
-Android Screens
+ScreenShots
 
-iOS Screens
 Screen 1
 ![image](https://user-images.githubusercontent.com/6734460/152918323-df0f9b55-b869-4a18-a100-e9f144c99541.png)
 
