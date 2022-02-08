@@ -1,0 +1,6 @@
+module Pods_ChartApp_ChartAppTests {
+  umbrella header "Pods-ChartApp-ChartAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
