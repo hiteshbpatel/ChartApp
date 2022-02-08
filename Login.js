@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import React from 'react';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
 
@@ -5,15 +6,15 @@ export default class Login extends React.Component {
   constructor(props) {
   super(props);
   this.state={
-    email:"",
+    username:"",
     password:""
   }
 }
 
 login = () => {
       //validation for Login
-     if(this.state.email == 'admin@gmail.com' && this.state.password == 'admin'){
-      this.props.navigation.navigate('Home');
+     if(this.state.username == 'admin' && this.state.password == 'admin'){
+      this.props.navigation.navigate('Home', {username: this.state.username });
      }else{
          alert("Please try with valid username and password")
      }
@@ -25,10 +26,10 @@ login = () => {
         <View style={styles.inputView} >
           <TextInput  
             style={styles.inputText}
-            placeholder="Email..." 
+            placeholder="username..." 
             placeholderTextColor="#003f5c"
             autoCapitalize='none'
-            onChangeText={text => this.setState({email:text})}/>
+            onChangeText={text => this.setState({username:text})}/>
         </View>
         <View style={styles.inputView} >
           <TextInput  

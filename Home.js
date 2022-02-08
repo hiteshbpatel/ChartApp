@@ -18,6 +18,7 @@ export default class Home extends Component {
       ],
     }
   }
+  
 
   eliminateDuplicates(arr) {
     var i,
@@ -97,6 +98,7 @@ export default class Home extends Component {
     return (
       <View style={styles.container}>
         <ScrollView>
+        <Text style={{alignSelf:'center', marginBottom:10, fontSize:20}}>Hi {this.props.route.params.username}</Text>
         <Table borderStyle={{borderColor: 'transparent'}}>
           <Row data={state.tableHead} style={styles.head} textStyle={styles.text}/>
           {
